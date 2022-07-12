@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+{% load static %}  
+ 
+{% block content %}
+ 
+<main class="site-content">
+    <div class="page_header d-flex align-items-center">
+        <div class="container">
+            <section>
+                <h2>About Us.</h2>
+                <div class="breadcrumbs">
+                    <a href="{% url 'home'%}">Home</a>
+                    <span>About</span>
+                </div>
+            </section>
+        </div>
+    </div><!-- /.page_header -->
+    <div class="about-section">
+        <div class="container">
+            <div class="row justify-content-xl-between ">
+                <div class="col-xl-5 pr-xl-0 text-sm-left text-center">
+                    <div class="row">
+                        <div class="col-xl-12 col-md-6 mb-xl-5">
+                            <img src="{% static 'img/blog5.png'%}" alt="About us" class="imgrow">
+                        </div>
+                   
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                   
+                        <h2 class="textbody">Nexus Health</h2>
+                        <p class="psize">Established for nearly 10 years, we are committed to offering high quality evidence-based treatments for all musculoskeletal and orthopaedic conditions at out London clinics located in Covent Garden and Northwood.</p>
+                        <p class="psize">All our physiotherapists are HCPC registered and are members of the Chartered Society of Physiotherapy.</p>
+                        <p class="psize">Our clinics offer comprehensive assessment and goal-orientated treatments for neck and back pains, shoulder injuries, tennis elbow, ankle sprains, knee injuries, tendonitis, sciatica and a host of other sports injuries. We offer Domiciliary physiotherapy within a five-mile radius of our clinics in London for musculoskeletal injuries and post-surgical rehabilitation.</p>
+                        <p class="psize">We are also offering Virtual physiotherapy assessment and treatment plan on various online platforms following the current pandemic which is covered by most of the insurance companies</p>
+                       
+                   
+                </div>
+            </div>
+        </div>
+    </div><!-- /.about-section -->
+    <div class="mission-vission">
+        <div class="container">
+            <div class="row justify-content-xl-between justify-content-center">
+                <div class="col-xl-5 order-xl-2 order-1 text-xl-left text-center">
+                    <img src="{% static 'img/blog6.png'%}" alt="Mission & Vission">
+                </div>
+                <div class="col-xl-6 order-xl-1 order-2">
+                    <section>
+                        <h2>Our Mission & Vission.</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable cont ent of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making.</p>
+                        <ul>
+                            <li>Free Consultation</li>
+                            <li>Fitness Assessment</li>
+                            <li>24 Hours Service</li>
+                            <li>Discounts & Updates</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.mission-vission -->
+    <div class="cta-section cta-bg">
+        <div class="container">
+            <div class="row align-items-center justify-content-xl-between justify-content-center">
+                <div class="col-xl-8">
+                    <section>
+                        <h2>Need a doctor for checkup? Call for an <span>Emergency Services!</span></h2>
+                    </section>
+                </div>
+                <div class="col-xl-4 px-xl-0">
+            <div class="action text-white text-center1">
+                <h2 style="font-size: 30px;">Call Us : +00 568 468</h2>
+                <p class="text-xl-right text-center1">For an appoinment</p>
+                <i class="icofont-woman-in-glasses"></i>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div><!-- /.cta-section -->
+    <div class="team-section mb-125">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-header text-center col-lg-8">
+                    <h2>Professional Care Provider</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat sunt culpa officia deserunt mollit anim est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-lg px-lg-0">
+            <div class="row">
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg0.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Chriss Taylor</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg2.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Jonshon Aliven</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg3.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Trikien Munaska</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg4.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Khabian Jerry</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg6.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Chriss Taylor</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg0.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Jonshon Aliven</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{% static 'img/blg4.png'%}" alt="Team Member Name" />
+                        </div>
+                        <h2><a href="#">Trikien Munaska</a></h2>
+                        <p><a href="#">Internal Medicine</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-sm-6">
+                    <div class="team-member blank">
+                        <h2>Join our team</h2>
+                        <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor</p>
+                        <a href="#">
+                            <i class="icofont-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.team-section -->
+   
+</div>
+</main><!-- /.site-content -->
+ 
+{% endblock %}
+ 

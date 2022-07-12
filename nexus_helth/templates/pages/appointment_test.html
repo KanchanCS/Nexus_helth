@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <th><label for="id_name">Name:</label></th>
+                <td>
+    
+                    <input type="text" name="name" maxlength="50" required id="id_name">
+    
+    
+                </td>
+            </tr>
+    
+            <tr>
+                <th><label for="id_email">Email:</label></th>
+                <td>
+    
+                    <input type="email" name="email" maxlength="100" required id="id_email">
+    
+    
+                </td>
+            </tr>
+    
+            <tr>
+                <th><label for="id_phone">Phone:</label></th>
+                <td>
+    
+                    <input type="text" name="phone" required id="id_phone">
+    
+    
+                </td>
+            </tr>
+    
+            <tr>
+                <th><label for="id_requirements">Requirements:</label></th>
+                <td>
+    
+                    <textarea name="requirements" cols="40" rows="10" required id="id_requirements">
+            </textarea>
+    
+    
+    
+    
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="submit">
+
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
